@@ -16,7 +16,8 @@
     "@types/node": "^18.16.19",
     "autoprefixer": "^10.4.14",
     "nuxt": "^3.6.3",
-    "octokit": "^3.0.0"
+    "octokit": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1"
   },
   "dependencies": {
     "tsparticles": "^2.11.0",
