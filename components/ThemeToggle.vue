@@ -1,11 +1,11 @@
 <template>
     <div>
-        <button v-if="theme === 'light'" class="bg-white rounded p-2" @click="setTheme('dark')"
+        <button v-show="theme === 'light'" class="bg-white rounded p-2" @click="setTheme('dark')"
             :aria-label="$t('toggle.darkMode')">
             <IconsLightMode class="w-4 h-4 fill-purple-600" />
         </button>
 
-        <button v-if="theme === 'dark'" class="dark:bg-slate-900 rounded p-2" @click="setTheme('light')"
+        <button v-show="theme === 'dark'" class="dark:bg-slate-900 rounded p-2" @click="setTheme('light')"
             :aria-label="$t('toggle.lightMode')">
             <IconsDarkMode class="w-4 h-4 dark:fill-yellow-300 transition-all" />
         </button>
