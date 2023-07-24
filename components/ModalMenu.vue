@@ -21,5 +21,5 @@
 <script setup lang="ts">
 const show = ref(false);
 
-const aL = defineProps<{ aL: string }>();
+defineProps<{ aL: string }>();
 </script>

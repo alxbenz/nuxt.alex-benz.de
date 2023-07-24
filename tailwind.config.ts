@@ -4,9 +4,12 @@ module.exports = {
         extend: {
             animation: {
                 'spin-slow': 'spin 15s linear infinite',
-                'pulse-weak': 'pulseWeak 3s linear infinite',
+                'pulse-weak': 'pulseWeak 4s linear infinite',
                 'fade-in-up': 'fIU 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
                 'fade-in': 'fI 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
+            },
+            backgroundImage: {
+                'pattern': "url('/public/background.svg')",
             },
             keyframes: {
                 pulseWeak: {
