@@ -1,5 +1,5 @@
 <template>
-    <div class="dark:text-slate-300 relative">
+    <div class="dark:text-slate-300 relative" v-click-outside="() => show = false">
         <div class="flex flex-col items-start">
             <button type="button" @click="show = !show" :aria-label="aL">
                 <slot name="label" />
@@ -22,4 +22,6 @@
 const show = ref(false);
 
 defineProps<{ aL: string }>();
+
+
 </script>

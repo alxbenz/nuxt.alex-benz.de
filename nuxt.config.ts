@@ -33,5 +33,7 @@ export default defineNuxtConfig({
       alwaysRedirect: true,
     },
   },
-
+  css: [
+    '@/assets/global.css',
+  ],
 })

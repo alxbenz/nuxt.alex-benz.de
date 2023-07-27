@@ -1,4 +1,5 @@
 <template>
+    <FrameworkSelection />
     <div
         class="relative flex items-center justify-center overflow-hidden text-white md:fixed md:h-screen md:w-1/2 md:justify-end"
     >
@@ -8,7 +9,7 @@
             <div class="absolute left-0 top-0 h-full w-full animate-pulse-weak bg-pattern bg-repeat opacity-20" />
         </div>
         <aside
-            class="relative min-h-[16rem] w-full max-w-lg overflow-auto px-6 pb-6 pt-20 md:max-h-screen lg:mr-24 lg:max-w-sm"
+            class="relative min-h-[16rem] w-full max-w-lg overflow-auto px-6 pb-6 pt-20 md:max-h-screen lg:mr-16 xl:mr-24 lg:max-w-sm"
         >
             <div class="flex items-center justify-start">
                 <div class="h-16 w-16">
